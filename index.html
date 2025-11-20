@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaced Repetition – Rappels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>📘 Spaced Repetition – Mes Révisions</h1>
+</header>
+
+<main>
+    <section id="add-card">
+        <h2>Ajouter une carte</h2>
+        <input type="text" id="title" placeholder="Titre" />
+        <textarea id="content" placeholder="Contenu de la carte"></textarea>
+        <button id="addCardBtn">Ajouter</button>
+    </section>
+
+    <section id="due-cards">
+        <h2>Cartes à réviser aujourd’hui</h2>
+        <div id="cardsContainer"></div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
